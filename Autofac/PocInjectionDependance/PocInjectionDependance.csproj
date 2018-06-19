@@ -49,13 +49,16 @@
   <ItemGroup>
     <Compile Include="IAutreService.cs" />
     <Compile Include="IService.cs" />
+    <Compile Include="MonAutreService.cs" />
     <Compile Include="MonService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
